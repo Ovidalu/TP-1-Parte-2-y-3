@@ -20,10 +20,10 @@ print("el valor promedio por pedido es", valor_promedio)
 
 producto_mas_vendido=df5['product_category_name'].value_counts()#identificar cantidad de veces de producto
 producto_mas_repetido= producto_mas_vendido.idxmax()# funcion para indentificar el producto mas repetido
-print(producto_mas_repetido)
+print("el producto mas vendido es", producto_mas_repetido)
 
 pedidos_realizados=len(df4)#conteo cantidad de filas en dataframe
-print(pedidos_realizados)
+print("la cantidad de pedidos realizados es", pedidos_realizados)
 
 
 
